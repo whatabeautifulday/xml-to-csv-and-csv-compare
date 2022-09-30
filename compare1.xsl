@@ -4,16 +4,16 @@
 <xsl:template match="/">
           <xsl:text>CITY1,CITY2,STREET,POLICY_ID,CORR_TYPE,CORR_KEY,BUSINESS_PARTNER&#xa;</xsl:text>
 
-<xsl:for-each select="//PWB_DATA">
+<xsl:for-each select="//XXX_DATA">
 
 
-<xsl:value-of select="WA_REC_ADRESS/CITY1"/><xsl:text>,</xsl:text>
-<xsl:value-of select="WA_REC_ADRESS/CITY2"/><xsl:text>,</xsl:text>
-<xsl:value-of select="WA_REC_ADRESS/STREET"/><xsl:text>,</xsl:text>
-<xsl:value-of select="WA_CORR_HEAD/SEARCH_TAGS/POLICY_ID"/><xsl:text>,</xsl:text>
-<xsl:value-of select="WA_CORR_KEY/CORR_TYPE"/><xsl:text>,</xsl:text>
-<xsl:value-of select="WA_CORR_KEY/CORR_KEY"/><xsl:text>,</xsl:text>
-<xsl:value-of select="WA_CORR_KEY/BUSINESS_PARTNER"/>
+<xsl:value-of select="XXXX_ADRESS/CITY1"/><xsl:text>,</xsl:text>
+<xsl:value-of select="XXXX_ADRESS/CITY2"/><xsl:text>,</xsl:text>
+<xsl:value-of select="XXXX_ADRESS/STREET"/><xsl:text>,</xsl:text>
+<xsl:value-of select="XXXX_HEAD/XXXX_TAGS/XXXX_ID"/><xsl:text>,</xsl:text>
+<xsl:value-of select="XXXX_KEY/XXXX_TYPE"/><xsl:text>,</xsl:text>
+<xsl:value-of select="XXXX_KEY/XXXX_KEY"/><xsl:text>,</xsl:text>
+<xsl:value-of select="XXXX_KEY/XXXXX_PARTNER"/>
 
 
 
