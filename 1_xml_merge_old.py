@@ -21,8 +21,7 @@ xml_files_old = glob.glob(file_path + '\*.*')
 
 
 #抓取old xml fild, all data 
-# xml_files_old = glob.glob(r'C:\Users\w9013769\Desktop\anderson\PCB040_old\CPE2LOMSJ.*')
-# print(xml_files_old)
+
 xml_element_tree_old = None
 
 #多的xml合併成一個
